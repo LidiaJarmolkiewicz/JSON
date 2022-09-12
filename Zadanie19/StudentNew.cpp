@@ -33,7 +33,7 @@ namespace ns {
 	
 	void to_json(json& j, const StudentNew& s)
 	{
-		j = json{ {"firstName:",s.getFirstName()},{"lastName:",s.getLastName()},{"number",s.getNumber()} };
+		j = json{ {"firstName",s.getFirstName()},{"lastName",s.getLastName()},{"number",s.getNumber()} };
 	}
 
 	void from_json(const json& j, StudentNew& s)

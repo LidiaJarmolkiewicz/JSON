@@ -27,7 +27,7 @@ int main()
     std::list<ns::StudentNew> list2;
     for (auto& elem : jf["Students"])
     {
-        std::cout << "Wczytuje ";
+       
         list2.push_back(elem.get<ns::StudentNew>());
     }
     for_each(list2.begin(), list2.end(), [](const ns::StudentNew& x) {std::cout << x.getFirstName() << " " << x.getLastName() << " " << x.getNumber() << std::endl; });

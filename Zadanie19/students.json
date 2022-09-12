@@ -1,18 +1,18 @@
 {
     "Students": [
         {
-            "firstName:": "John",
-            "lastName:": "Dear",
+            "firstName": "John",
+            "lastName": "Dear",
             "number": 1234
         },
         {
-            "firstName:": "Kate",
-            "lastName:": "Brown",
+            "firstName": "Kate",
+            "lastName": "Brown",
             "number": 5469
         },
         {
-            "firstName:": "Tom",
-            "lastName:": "Johns",
+            "firstName": "Tom",
+            "lastName": "Johns",
             "number": 7412
         }
     ]
